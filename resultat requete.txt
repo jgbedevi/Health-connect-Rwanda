@@ -1,0 +1,227 @@
+"gender"	"patients"	"pct"
+"Male"	10090	50.5
+"Female"	9910	49.6
+
+
+
+"province"	"patients"	"pct"
+"Western"	4091	20.5
+"Eastern"	4067	20.3
+"Southern"	3967	19.8
+"Kigali City"	3952	19.8
+"Northern"	3923	19.6
+
+
+"insured_patients"	"total_patients"	"coverage_rate_pct"
+20000	20000	100.0
+
+
+"average_age"	"min_age"	"max_age"
+45.0	0	90
+
+
+"month"	"appointments"
+"2026-01-01"	418
+"2026-02-01"	413
+"2026-03-01"	440
+"2026-04-01"	405
+"2026-05-01"	400
+"2026-06-01"	437
+"2026-07-01"	416
+"2026-08-01"	428
+"2026-09-01"	408
+"2026-10-01"	414
+"2026-11-01"	420
+"2026-12-01"	401
+
+
+
+"facility_id"	"appointments"	"pct"
+"HF013"	278	5.6
+"HF014"	276	5.5
+"HF010"	275	5.5
+"HF001"	273	5.5
+"HF011"	273	5.5
+"HF006"	269	5.4
+"HF016"	261	5.2
+"HF008"	257	5.1
+"HF003"	256	5.1
+"HF012"	249	5.0
+"HF015"	245	4.9
+"HF017"	243	4.9
+"HF009"	241	4.8
+"HF002"	241	4.8
+"HF018"	240	4.8
+"HF020"	237	4.7
+"HF007"	224	4.5
+"HF005"	223	4.5
+"HF004"	222	4.4
+"HF019"	217	4.3
+
+
+"department"	"facility_id"	"appointments"
+"Radiology"	"HF001"	41
+"Laboratory"	"HF013"	41
+"Pediatrics"	"HF011"	38
+"Cardiology"	"HF017"	38
+"Cardiology"	"HF009"	37
+"Obstetrics & Gynecology"	"HF008"	34
+"Laboratory"	"HF010"	34
+"Laboratory"	"HF011"	34
+"Pharmacy"	"HF014"	34
+"Surgery"	"HF006"	33
+"Pharmacy"	"HF012"	32
+"Radiology"	"HF016"	32
+"Internal Medicine"	"HF014"	32
+"Pediatrics"	"HF001"	32
+"Obstetrics & Gynecology"	"HF006"	32
+"Pediatrics"	"HF014"	32
+"Internal Medicine"	"HF018"	32
+"Emergency"	"HF002"	32
+"Obstetrics & Gynecology"	"HF009"	31
+"Surgery"	"HF015"	31
+
+
+"doctor_id"	"doctor_name"	"department_name"	"appointments"
+"DO0146"	"Alice Uwera"	"Laboratory"	8
+"DO0169"	"Grace Uwera"	"Internal Medicine"	8
+"DO0264"	"Jean Uwimana"	"Cardiology"	7
+"DO0300"	"Claudine Uwimana"	"Laboratory"	6
+"DO0288"	"Grace Uwera"	"Pharmacy"	6
+"DO0322"	"Jean Nsengimana"	"Pediatrics"	6
+"DO0210"	"Diane Mugisha"	"Radiology"	6
+"DO0347"	"Emmanuel Nsengimana"	"Radiology"	6
+"DO0144"	"Emmanuel Nsengimana"	"Cardiology"	6
+"DO0191"	"Eric Niyonzima"	"Radiology"	6
+"DO0100"	"Alice Nsengimana"	"Surgery"	6
+"DO0218"	"Eric Niyonzima"	"Pharmacy"	6
+"DO0226"	"Grace Mukamana"	"Obstetrics & Gynecology"	6
+"DO0109"	"Alice Niyonzima"	"Radiology"	6
+"DO0350"	"Samuel Niyonzima"	"Laboratory"	6
+"DO0141"	"Grace Nsengimana"	"Obstetrics & Gynecology"	6
+"DO0172"	"Claudine Mukamana"	"Pediatrics"	5
+"DO0301"	"Samuel Uwimana"	"Pharmacy"	5
+"DO0109"	"Alice Niyonzima"	"Internal Medicine"	5
+"DO0345"	"Samuel Mugisha"	"Emergency"	5
+
+
+"emergency_appointments"	"total_appointments"	"emergency_pct"
+1650	5000	33.0
+
+
+"diagnosis"	"cases"	"pct"
+"Gastritis"	12208	20.3
+"Diabetes"	12083	20.1
+"Hypertension"	12075	20.1
+"Malaria"	11878	19.8
+"Upper Respiratory Infection"	11756	19.6
+
+
+"severity"	"cases"	"pct"
+"Mild"	20190	33.7
+"Severe"	19983	33.3
+"Moderate"	19827	33.0
+
+
+"facility_id"	"bills"	"billed"	"collected"	"collection_rate_pct"
+"HF011"	273	44206632	39810993	90.1
+"HF006"	269	43624779	40224830	92.2
+"HF013"	278	43547211	39515650	90.7
+"HF010"	275	42083403	37969003	90.2
+"HF014"	276	41353389	36612652	88.5
+"HF001"	273	41131133	37488307	91.1
+"HF008"	257	39631932	35661969	90.0
+"HF020"	237	38613123	35007484	90.7
+"HF003"	256	38561818	34719109	90.0
+"HF016"	261	38233042	34389340	89.9
+"HF012"	249	37873737	34927093	92.2
+"HF009"	241	37237343	33901803	91.0
+"HF002"	241	36922248	32943974	89.2
+"HF015"	245	36362642	32587105	89.6
+"HF007"	224	36005995	31739881	88.2
+"HF017"	243	35687381	31679505	88.8
+"HF004"	222	35357464	31801977	89.9
+"HF019"	217	35046077	31354603	89.5
+"HF005"	223	34863475	30982150	88.9
+"HF018"	240	34790615	31233892	89.8
+
+
+"department"	"bills"	"billed"	"collected"
+"Cardiology"	544	86248476	78197899
+"Radiology"	525	82000658	73615069
+"Laboratory"	499	78562533	70936696
+"Pediatrics"	491	77522048	71105617
+"Obstetrics & Gynecology"	511	77355750	69928652
+"Internal Medicine"	490	75469062	67657389
+"Surgery"	488	74420999	66636178
+"Emergency"	495	74132460	67258120
+"Icu"	467	72934544	64908023
+"Pharmacy"	490	72486909	64307677
+
+
+"provider"	"claims"	"claimed_amount"	"approved"	"approval_rate_pct"
+"Radiant"	10644	1236511902.69	5334	50.1
+"Private"	10508	1217496359.42	5176	49.3
+"RSSB"	10511	1214649237.67	5355	50.9
+"MMI"	10373	1213205794.10	5143	49.6
+
+
+"status"	"bills"	"billed"	"collected"	"outstanding"
+"Paid"	20145	3112433502	2801193111	311240391
+"Partially Paid"	19971	3093663563	2787999670	305663893
+"Pending"	19884	3103304896	2800261775	303043121
+
+
+"bills_with_balance"	"total_outstanding"	"outstanding_pct_of_billed"
+11887	919947405	9.9
+
+
+"average"	"median"	"minimum"	"maximum"
+155157	155247	10002	299998
+
+
+"month"	"billed"	"collected"
+"2026-01-01"	63773527	59049032
+"2026-02-01"	64318044	56746830
+"2026-03-01"	69166031	61965928
+"2026-04-01"	63544090	57838281
+"2026-05-01"	60802208	54349946
+"2026-06-01"	70172522	62858137
+"2026-07-01"	64575071	58064921
+"2026-08-01"	69091082	61789839
+"2026-09-01"	57248879	51375999
+"2026-10-01"	63149141	56315210
+"2026-11-01"	64514828	59426154
+"2026-12-01"	60778016	54771043
+
+
+
+"method"	"payments"	"amount"	"pct_of_payments"
+"Card"	15145	2115489446	25.2
+"Mobile Money"	15016	2104779310	25.0
+"Insurance"	14944	2094324407	24.9
+"Cash"	14895	2074861393	24.8
+
+
+
+"facility_id"	"bills"	"billed"	"collected"	"collection_rate_pct"	"average_bill"	"revenue_rank"	"collection_rank"	"overall_rank"
+"HF006"	269	43624779	40224830	92.2	162174	2	1	1
+"HF013"	278	43547211	39515650	90.7	156645	3	5	2
+"HF001"	273	41131133	37488307	91.1	150663	6	3	3
+"HF011"	273	44206632	39810993	90.1	161929	1	8	3
+"HF010"	275	42083403	37969003	90.2	153031	4	7	5
+"HF012"	249	37873737	34927093	92.2	152103	11	1	6
+"HF020"	237	38613123	35007484	90.7	162925	8	5	7
+"HF008"	257	39631932	35661969	90.0	154210	7	9	8
+"HF009"	241	37237343	33901803	91.0	154512	12	4	8
+"HF003"	256	38561818	34719109	90.0	150632	9	9	10
+"HF016"	261	38233042	34389340	89.9	146487	10	11	11
+"HF014"	276	41353389	36612652	88.5	149831	5	19	12
+"HF004"	222	35357464	31801977	89.9	159268	17	11	13
+"HF015"	245	36362642	32587105	89.6	148419	14	14	13
+"HF002"	241	36922248	32943974	89.2	153204	13	16	15
+"HF018"	240	34790615	31233892	89.8	144961	20	13	16
+"HF019"	217	35046077	31354603	89.5	161503	18	15	16
+"HF017"	243	35687381	31679505	88.8	146862	16	18	18
+"HF007"	224	36005995	31739881	88.2	160741	15	20	19
+"HF005"	223	34863475	30982150	88.9	156338	19	17	20
